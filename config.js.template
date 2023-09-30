@@ -1,0 +1,6 @@
+let config = {};
+
+config.port = process.env.PORT || 3000;
+config.mongodb_uri = "mongodb+srv://user:password@mongodbserver/?retryWrites=true&w=majority";
+
+module.exports = config;
