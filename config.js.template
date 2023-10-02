@@ -1,6 +1,6 @@
 let config = {};
 
-config.port = process.env.PORT || 3000;
-config.mongodb_uri = "mongodb+srv://user:password@mongodbserver/?retryWrites=true&w=majority";
+config.mongoUri = "mongodb+srv://user:password@mongodbserver/?retryWrites=true&w=majority";
+config.database = "todo_list";
 
 module.exports = config;
