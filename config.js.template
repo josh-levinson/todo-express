@@ -1,6 +1,0 @@
-let config = {};
-
-config.mongoUri = "mongodb+srv://user:password@mongodbserver/?retryWrites=true&w=majority";
-config.database = "todo_list";
-
-module.exports = config;
